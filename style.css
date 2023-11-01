@@ -239,13 +239,13 @@ body {
 @media screen and (max-width: 768px) {
    /* Adjust styles for smaller screens here */
    .bodyText1 {
-       font-size: 24px; /* Adjust font size for smaller screens */
+       font-size: 12px; /* Adjust font size for smaller screens */
    }
    #bodyImage1 {
-       margin: 10px 0; /* Adjust margin for smaller screens */
+       margin: 5px 0; /* Adjust margin for smaller screens */
    }
    #shsatImg, #ccImg {
-       width: 120px; /* Adjust image width for smaller screens */
+       width: 40px; /* Adjust image width for smaller screens */
    }
    .classText1 {
        font-size: 20px; /* Adjust font size for smaller screens */
@@ -261,11 +261,12 @@ body {
        margin: 3px 0; /* Adjust margin for smaller screens */
    }
 
-   #navImg {
-      width: 60px; /* Adjust image width for smaller screens */
+   #navone1 {
+      padding: 1px;
+      font-size: 10px;
   }
-  .nav1 {
-      font-size: 16px; /* Adjust font size for smaller screens */
+  #navImg {
+      width: 30px;
   }
   #contactImage {
       width: 150px; /* Adjust image width for smaller screens */
@@ -280,5 +281,13 @@ body {
   #contactHead a {
       font-size: 18px; /* Adjust font size for smaller screens */
   }
+  #goalHead h1 {
+   font-size: 40px; /* Decrease font size for smaller screens */
+}
 
+#goalPara {
+   font-size: 20px; /* Decrease font size for smaller screens */
+   margin-right: 20px; /* Decrease the margin for smaller screens */
+   margin-left: 20px; /* Decrease the margin for smaller screens */
+}
 }
